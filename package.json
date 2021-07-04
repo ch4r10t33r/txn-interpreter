@@ -1,0 +1,29 @@
+{
+  "name": "txn-interpreter",
+  "version": "0.1.0",
+  "description": "Transaction interpreter for EVM compatible chains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zincoshine/txn-interpreter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zincoshine/txn-interpreter/issues"
+  },
+  "homepage": "https://github.com/zincoshine/txn-interpreter#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "abi-decoder-ts": "^3.0.1",
+    "ethers": "^5.4.1",
+    "node-fetch-retry": "^1.1.1",
+    "random-js": "^2.1.0"
+  }
+}
